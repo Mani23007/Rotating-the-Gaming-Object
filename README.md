@@ -37,7 +37,47 @@ To add our C# Script file to our selected object, click on the C# Script file an
 Stop
 
 ## Program:
+Object :1
+```
+using UnityEngine;
+
+public class rotate1 : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.right,Vector3.left,30*Time.deltaTime);
+    }
+}
+```
+Object : 2
+```
+using UnityEngine;
+
+public class rotate2 : MonoBehaviour
+{
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        transform.RotateAround(Vector3.up,Vector3.down,30*Time.deltaTime);
+    }
+}
+```
 
 ## Output:
+![Exp1 AR,VR](https://github.com/user-attachments/assets/ab206068-b37c-4038-87da-7d20a81ac19a)
 
 ## Result:
+The development of two 3D application for rotating the gaming objects in unity is performed Successfully.
